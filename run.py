@@ -6,7 +6,7 @@ import os
 
 class Player:
     """
-    Initiates a player class.
+    Startup a player class.
     Each player in the game will be represented with X or O.
     get_move function will allow all players to get their next move.
     """
@@ -35,14 +35,17 @@ class HumanPlayer(Player):
     """
     def get_move(self, game):
         """
-        Check if the input value is one of the valid cells value,
+        Checks if the input value is one of the valid cells value,
         also checks if the cell on the board has already been used,
         if invalid or already used, will return an error.
         """
-        valid_cell = None
+        valid_cell = False
         value = None
         while not valid_cell:
-            cell = input(self.letter + "'s turn. Input move (0-8):\n")
+            cell = input(self.letter + "'s turn. Input move (0-8) or 'q' to quit:\n")
+            if cell.lower() == 'q' :
+                print("Player has quit the game.")
+                exit()
             try:
                 value = int(cell)
                 if value not in game.available_moves():
@@ -69,7 +72,7 @@ class TicTacToe:
     def __init__(self):
         """
         Single list that represents a 3x3 board, each number = cell
-        and keeps track of the winner if there is one.
+        and keeps track of who wins
         """
         self.board = [' ' for _ in range(9)]
         self.current_winner = None
@@ -85,7 +88,7 @@ class TicTacToe:
     @staticmethod
     def print_board_nums():
         """
-        Show the number corrispondent to the cells and prints separators
+        Show the number correspondent to the cells and prints separators
         """
         print('')
         num_board = [[str(i) for i in range(j*3, (j+1)*3)] for j in range(3)]
