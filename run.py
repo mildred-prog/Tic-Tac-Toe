@@ -23,7 +23,7 @@ class ComputerPlayer(Player):
     """
     def get_move(self, game):
         """
-        Computer will choose a random cell from the board.
+        Computer chooses a random cell from the board.
         """
         cell = random.choice(game.available_moves())
         return cell
