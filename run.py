@@ -19,7 +19,7 @@ class Player:
 
 class ComputerPlayer(Player):
     """
-    Specific kind of player that is going to be managed by the program.
+    Player managed by the computer.
     """
     def get_move(self, game):
         """
