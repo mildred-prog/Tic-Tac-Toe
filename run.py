@@ -80,7 +80,7 @@ class TicTacToe:
     def print_board(self):
         """
         Group of three spaces row1 = 0,1,2 / row2 = 3,4,5 / row3 = 6,7,8
-        and print a vertical line as a separator
+        and print a vertical line to seperate each row
         """
         for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
             print("| " + " | ".join(row) + " |")
