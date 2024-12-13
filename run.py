@@ -42,8 +42,8 @@ class HumanPlayer(Player):
         valid_cell = False
         value = None
         while not valid_cell:
-            cell = input(self.letter + "'s turn. Input move (0-8) or 'q' to quit:\n")
-            if cell.lower() == 'q' :
+            cell = input(self.letter + "'s turn.Input (0-8) or 'q' to quit:\n")
+            if cell.lower() == 'q':
                 print("Player has quit the game.")
                 exit()
             try:
