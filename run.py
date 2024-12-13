@@ -194,7 +194,7 @@ def play(game, x_player, o_player, print_game=True):
         print("To select one of the cells:")
         print("Type the number in the spot of your choice!")
         print('')
-        print("Reference board:")
+        print("Board layout for your reference:")
         game.print_board_nums()
         print('')
 
@@ -291,7 +291,7 @@ def main():
     clear_screen()
     print('')
     print("Hello,Welcome to Tic Tac Toe!")
-    print("What is you name?")
+    print("What is your name?")
     name = input()
     print("------------------")
     print('')
