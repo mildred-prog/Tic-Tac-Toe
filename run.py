@@ -152,7 +152,7 @@ class TicTacToe:
             return True
 
         # checks diagonals
-        # checks only if cell is an even number (0, 2, 4, 6, 8)
+        # checks if cell is an even number (0, 2, 4, 6, 8)
         # these are the only moves possible to win a diagonal
         if cell % 2 == 0:  # if it's even
             diagonal1 = [self.board[i] for i in [0, 4, 8]]  # left to right
