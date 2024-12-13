@@ -114,7 +114,7 @@ class TicTacToe:
 
     def num_empty_cells(self):
         """
-        Count how many empty cells are in the baord
+        Count how many empty cells are in the board
         """
         return self.board.count(" ")
 
@@ -153,7 +153,7 @@ class TicTacToe:
 
         # checks diagonals
         # checks only if cell is an even number (0, 2, 4, 6, 8)
-        # this are the only moves possible to win a diagonal
+        # these are the only moves possible to win a diagonal
         if cell % 2 == 0:  # if it's even
             diagonal1 = [self.board[i] for i in [0, 4, 8]]  # left to right
             if all([spot == letter for spot in diagonal1]):
