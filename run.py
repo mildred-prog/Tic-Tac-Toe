@@ -235,7 +235,7 @@ def play(game, x_player, o_player, print_game=True):
         time.sleep(0.8)
 
     if print_game:
-        print("It's a tie!")
+        print("That's a tie!")
         return None
 
 
