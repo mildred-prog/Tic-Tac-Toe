@@ -286,7 +286,7 @@ def start_the_game():
 
 def main():
     """
-    Main function that calls the start and end of game.
+    The function that calls the start and end of game.
     """
     clear_screen()
     print('')
