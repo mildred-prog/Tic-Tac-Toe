@@ -67,7 +67,7 @@ def mockup_board():
 
 class TicTacToe:
     """
-    Class that defines the kind of game
+    Class that explains the kind of game
     """
     def __init__(self):
         """
