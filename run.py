@@ -291,7 +291,7 @@ def main():
     clear_screen()
     print('')
     print("Hello,Welcome to Tic Tac Toe!")
-    print("What's you name?")
+    print("What is you name?")
     name = input()
     print("------------------")
     print('')
