@@ -35,8 +35,8 @@ class HumanPlayer(Player):
     """
     def get_move(self, game):
         """
-        Checks if the input value is one of the valid cells value,
-        also checks if the cell on the board has already been used,
+        Checks if the input value is a valid cells value,
+        checks if the cell on the board has already been used,
         if invalid or already used, will return an error.
         """
         valid_cell = False
