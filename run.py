@@ -247,7 +247,7 @@ def explain_game():
     print("The winner is the first player to get three of the same symbols")
     print("in a row, vertically, horizontally or diagonally.")
     print("")
-    print("Now press 'p' to play or 'q' to quit the game!")
+    print("Press 'p' to play or 'q' to quit the game!")
 
 
 def start_the_game():
@@ -312,7 +312,7 @@ def main():
                 start_the_game()
             elif user_choice == 'n':
                 clear_screen()
-                print("Thank you for playing!")
+                print("Thank you for playing Tic-Tac-Toe!")
                 break
             else:
                 print("Invalid command. Press 'y' to start and 'n' to quit.")
