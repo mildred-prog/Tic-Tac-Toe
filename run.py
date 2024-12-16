@@ -319,7 +319,7 @@ def main():
     elif user_choice == 'n':
         clear_screen()
         print("Thank you for playing!")
-        print("To restart the game:")
+        print("Restart the game:")
         print("press Run program above the terminal window.")
     else:
         print("Invalid command. Press 'y' to start and 'n' to quit.")
