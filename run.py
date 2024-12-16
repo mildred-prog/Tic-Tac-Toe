@@ -286,11 +286,11 @@ def start_the_game():
 
 def main():
     """
-    The function that calls the start and end of game.
+    Function that calls the start and end of game.
     """
     clear_screen()
     print('')
-    print("Hello,Welcome to Tic Tac Toe!")
+    print("Hello,Welcome to Tic-Tac-Toe!")
     print("What is your name?")
     name = input()
     print("------------------")
