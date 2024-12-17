@@ -19,7 +19,7 @@ class Player:
 
 class ComputerPlayer(Player):
     """
-    Player managed by the computer.
+    This represents the computer"s move and choice.
     """
     def get_move(self, game):
         """
@@ -58,7 +58,7 @@ class HumanPlayer(Player):
 
 def mockup_board():
     """
-    Mockup board to keep visible during the game to facilitate UX
+    Create board and ensure visibility throughout the board
     """
     num_board = [[str(i) for i in range(j*3, (j+1)*3)] for j in range(3)]
     for row in num_board:
@@ -98,7 +98,6 @@ class TicTacToe:
     def available_moves(self):
         """
         Defines which moves are still available in a list of indeces
-        ["x", "x", "o"] -> [(0, "x"), (1, "x"), (2, "o")]
         """
         moves = []
         for (i, cell) in enumerate(self.board):
@@ -109,7 +108,7 @@ class TicTacToe:
     def empty_cells(self):
         """
         Returns True if there are empty cells in the board.
-         """
+        """
         return " " in self.board
 
     def num_empty_cells(self):
@@ -133,19 +132,19 @@ class TicTacToe:
 
     def winner(self, cell, letter):
         """
-        Check if there is a winner.
+        Checks if there is a winner.
         Checks for 3 in a row, column or diagonal.
         """
         # checks rows first
         row_index = math.floor(cell / 3)
         row = self.board[row_index*3: (row_index + 1)*3]
         # If all this is true or else comes out as false
-        # check if that letter is in 3 spots in a row
+        # checks if that letter is in 3 spots in a row
         if all([spot == letter for spot in row]):
             return True
 
         # If not true then we keep going
-        # check columns
+        # checks columns
         col_index = cell % 3
         column = [self.board[col_index+i*3] for i in range(3)]
         if all([spot == letter for spot in column]):
@@ -168,7 +167,7 @@ class TicTacToe:
 
 def clear_screen(numlines=100):
     """
-    Clears the console to simplify UX and clear visual clutter.
+    Clears the console to simplify UI and clear visual clutter.
     numlines is an optional argument used only as a fall-back.
     """
     if os.name == "posix":
@@ -252,7 +251,7 @@ def explain_game():
 
 def start_the_game():
     """
-    Gives the user menu for info, start the game or quit.
+    Gives the user menu for information, start the game or quit.
     """
     x_player = HumanPlayer("X")
     o_player = ComputerPlayer("O")
@@ -267,14 +266,14 @@ def start_the_game():
     print("'q' To quit the game")
     while True:
         user_choice = input().strip().lower()
-        if user_choice == 'r':
+        if user_choice == 'r':  # read the rules of the game
             clear_screen()
             explain_game()
-        elif user_choice == 'p':
+        elif user_choice == 'p':  # play the game
             clear_screen()
             play(t, x_player, o_player, print_game=True)
             return
-        elif user_choice == 'q':
+        elif user_choice == 'q':  # quit the game
             clear_screen()
             print('')
             print("Thank you for playing!")
