@@ -12,11 +12,15 @@ The Tic Tac Toe is a simple snd interesting text base game implemented in Python
 
 ### User goals
 
+#### Website owner goals
+- Provide a simple and fun text-based Tic Tac Toe game.
+- Create an engaging user experience that runs smoothly in a terminal environment.
+- Allow users to play games, with an option to replay or quit.
+
 #### New Users
 - Easily understand the rules of Tic Tac Toe through clear instructions displayed at the start of the game.                                         
 - View a numbered reference board to understand how to make moves.                                          
 - Get clear prompts and feedback for valid and invalid inputs.                                          
-- To ensure users can find relevant pages quickly using footer links.
 - Enjoy a clean, user-friendly interface that updates dynamically after every move.
 - Receive clear messages when the game ends in a win, loss, or tie.
 
