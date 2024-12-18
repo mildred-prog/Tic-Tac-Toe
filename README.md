@@ -6,3 +6,8 @@ The Tic Tac Toe is a simple snd interesting text base game implemented in Python
 ![Tic-Tac-Toe](assets/deployed-image.jpg)
 
 [Deployed Game Link](https://x-and-o-app-d0670438d457.herokuapp.com/)
+
+
+### UI/UX
+
+### User goals
