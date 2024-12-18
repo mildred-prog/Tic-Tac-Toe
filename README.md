@@ -24,4 +24,6 @@ The Tic Tac Toe is a simple snd interesting text base game implemented in Python
 - Enjoy a clean, user-friendly interface that updates dynamically after every move.
 - Receive clear messages when the game ends in a win, loss, or tie.
 
-#### Return
+#### Returning visitors
+- Seamlessly play again using the replay option without needing to restart the program.
+- Enjoy enhanced performance with bug-free functionality and responsive inputs.
