@@ -32,3 +32,16 @@ The Tic Tac Toe is a simple snd interesting text base game implemented in Python
 To create the structure of the game, this diagram was created using
  [Lucid Charts](https://www.lucidchart.com/)
  ![Flow Chart](assets/chart.png)
+
+ ### Game Features
+
+ Here's what the program does and how the game plays:
+
+1. This option asks the user to input name and welcomes the user after the name input.
+![Name-Input](assets/name-input.jpg)
+
+2. Once the user inputs their name, the program gives the user the option of (yes/no) to play the game.
+![Initiate game](assets/input-option.jpg)
+
+3. If user inputs no, it takes the user back to welcome.
+![Welcome](assets/welcome.jpg)
