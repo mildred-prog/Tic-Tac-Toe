@@ -66,3 +66,9 @@ To create the structure of the game, this diagram was created using
 
 10. The prompt for a choice will continue until there is a winner or players runs out of move thereby making it a tie. A feedback message will display in both cases and then an option for user to either restart the game or end the game.
 ![Win or Tie](assets/win.jpg)
+
+### Future Features to Implement
+
+- Introduce a scoreboard to track wins, losses, and ties across multiple games.
+- Introduce a custom board sizes that allow users to play on larger grids, such as 4x4 or 5x5.
+- An enhanced UI that add colour-coded symbols and animations for a more interactive experience.
