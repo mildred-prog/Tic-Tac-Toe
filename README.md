@@ -72,3 +72,11 @@ To create the structure of the game, this diagram was created using
 - Introduce a scoreboard to track wins, losses, and ties across multiple games.
 - Introduce a custom board sizes that allow users to play on larger grids, such as 4x4 or 5x5.
 - An enhanced UI that add colour-coded symbols and animations for a more interactive experience.
+
+### Technologies Used
+---
+
+- JavaScript - generated from the python essential template build by Code Institute.
+- GitHub - Version control.
+- GitPod - IDE used to code the program and for some of the manual testing.
+- Heroku - Program deployment for the users to access it without deploy it themselves.
