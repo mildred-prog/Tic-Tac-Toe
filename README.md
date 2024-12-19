@@ -9,6 +9,7 @@ The Tic Tac Toe is a simple snd interesting text base game implemented in Python
 
 
 ### UI/UX
+---
 
 ### User goals
 
@@ -29,11 +30,13 @@ The Tic Tac Toe is a simple snd interesting text base game implemented in Python
 - Enjoy enhanced performance with bug-free functionality and responsive inputs.
 
 ### Flow Chart
+---
 To create the structure of the game, this diagram was created using
  [Lucid Charts](https://www.lucidchart.com/)
  ![Flow Chart](assets/chart.png)
 
  ### Game Features
+ ---
 
  Here's what the program does and how the game plays:
 
@@ -68,6 +71,7 @@ To create the structure of the game, this diagram was created using
 ![Win or Tie](assets/win.jpg)
 
 ### Future Features to Implement
+---
 
 - Introduce a scoreboard to track wins, losses, and ties across multiple games.
 - Introduce a custom board sizes that allow users to play on larger grids, such as 4x4 or 5x5.
@@ -80,3 +84,13 @@ To create the structure of the game, this diagram was created using
 - GitHub - Version control.
 - GitPod - IDE used to code the program and for some of the manual testing.
 - Heroku - Program deployment for the users to access it without deploy it themselves.
+
+### Libraries Used
+---
+
+- Math - for calculation and managment of numbers and data types.
+- Random - to randomize the choices of the computer player.
+- Time -Adds pauses between moves for better user readability.
+- Os -  Used to clear the terminal screen for a clean UI.
+
+
