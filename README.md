@@ -5,7 +5,7 @@ The Tic Tac Toe is a simple snd interesting text base game implemented in Python
 
 ![Tic-Tac-Toe](assets/deployed-image.jpg)
 
-[Deployed Game Link](https://x-and-o-app-d0670438d457.herokuapp.com/)
+[Here is the live version of my project](https://x-and-o-app-d0670438d457.herokuapp.com/)
 
 
 ### UI/UX
@@ -135,3 +135,47 @@ Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers.
 | Players could select occupied cells.  | Added checks to ensure only empty cells can be selected. |
 | Invalid input (e.g., letters or special characters) caused crashes. | Added input validation to handle non-numeric values.  |
 | The program raised an IndentationError.  | Added extra spaces in-between command line prompt to help visual clarity for the userand avoid errors.  |
+
+### Unfixed Bugs
+- No bugs remaining
+
+## Deployment
+
+Here’s a guide for manually deploying the project to Heroku using a GitHub repository:
+
+### Deployment Steps:
+
+- **1. Create a Heroku Account**
+    - Visit [Heroku](https://dashboard.heroku.com/) and sign up for an account.
+
+- **2. Create a New App**
+    - Go to the Heroku dashboard and click **new**.
+    - On the dropdown click **Create new app**.
+    - Provide a unique app name and select your region then click **Create app**.
+
+- **3. Add Buildpacks**
+    - In the **Settings** tab, click **Add buildpack**.
+    - Select **Python** and **Node.js** (if needed), ensuring that Python is listed first.
+
+- **4. Connect to GitHub**
+    - In the **Deploy** tab, choose **GitHub** as the deployment method.
+    - Search for your repository and connect it to Heroku.
+
+- **5. Manual or Automatic Deploy**
+    - Enable **Automatic Deploys** for Heroku to update the app with every push to GitHub, or use the **Manual Deploy** option to deploy the main branch manually.
+
+- Your code must be placed in the `run.py` file
+- Your dependencies must be placed in the `requirements.txt` file
+
+## Creating the Heroku app
+
+When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+
+1. `heroku/python`
+2. `heroku/nodejs`
+
+You must then create a _Config Var_ called `PORT`. Set this to `8000`
+
+Connect your GitHub repository and deploy as normal.
+
+
