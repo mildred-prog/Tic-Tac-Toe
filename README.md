@@ -93,4 +93,22 @@ To create the structure of the game, this diagram was created using
 - Time -Adds pauses between moves for better user readability.
 - Os -  Used to clear the terminal screen for a clean UI.
 
+### Testing and Validation
+---
+
+The code was checked with PEP8 validator and passed with no error found.
+![Testing](assets/validator.jpg)
+
+### Manual testing
+---
+#### Browser Compactibility
+Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers.
+
+- Google Chrome
+![chrome](assets/goggle.jpg)
+- Microsoft edge
+![microsoft](assets/microsoft.jpg)
+- Firefox
+![firefox](assets/firefox.jpg)
+
 
