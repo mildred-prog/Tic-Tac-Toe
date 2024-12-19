@@ -101,6 +101,13 @@ The code was checked with PEP8 validator and passed with no error found.
 
 ### Manual testing
 ---
+
+- Inputs:
+Tested with valid moves (e.g., selecting empty cells) and tested with invalid inputs (e.g., selecting occupied cells or entering non-numeric values).
+- Win Detection:Verified that the game correctly detects wins for all possible winning combinations (rows, vertical, horizontal and diagonal).
+- Tie Detection:Confirmed that the game declares a tie when all cells are filled without a winner.
+- Replay Option:Checked the functionality of restarting the game after each round.
+
 #### Browser Compactibility
 Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers.
 
