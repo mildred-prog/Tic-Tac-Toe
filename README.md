@@ -98,7 +98,7 @@ To create the structure of the game, this diagram was created using
 
 The code was checked with PEP8 validator and passed with no error found.
 ![Testing](assets/validator.jpg)
-
+ 
 ### Manual testing
 ---
 
@@ -118,4 +118,10 @@ Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers.
 - Firefox
 ![firefox](assets/firefox.jpg)
 
-
+|    Bug   |   Fix   |
+| ------------- | ------------- |
+| Questions were not shuffling correctly on each quiz start.  | Implemented a shuffleQuestions() function to randomize the question array, ensuring questions appear in a different order each time. |
+| The 'Next' button wasn't enabled after selecting an answer. | Created a nextBtnEnable() function to enable the button, allowing users to proceed to the next question. |
+| Final score displayed incorrectly due to miscalculated correct answers.  | Adjusted the checkAnswer() function to track correct answers accurately.  |
+| The welcome container lacked a heading, hence causing a warning in the w3c validator.  | Used div element to target the id.  |
+| Goggle font was not imported correctly | Used the @import on the web to correct this rather than the link. |
