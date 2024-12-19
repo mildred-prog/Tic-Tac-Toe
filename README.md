@@ -109,6 +109,7 @@ Tested with valid moves (e.g., selecting empty cells) and tested with invalid in
 - Replay Option:Checked the functionality of restarting the game after each round.
 
 #### Browser Compactibility
+
 Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers.
 
 - Google Chrome
@@ -119,6 +120,7 @@ Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers.
 ![firefox](assets/firefox.jpg)
 
 ### User stories testing
+
 |    User Story   |   How It Was Achieved   |
 | ------------- | ------------- |
 | I want to easily understand the game rules.  | Clear instructions are displayed at the start of the game |
@@ -126,3 +128,10 @@ Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers.
 | I want to avoid invalid moves.  | Input validation ensures only valid moves are allowed  |
 | I want to play multiple rounds if I wish.  | Replay functionality is included to restart the game easily.  |
 
+### Bugs
+
+|    Issues   |   Fix   |
+| ------------- | ------------- |
+| Players could select occupied cells.  | Added checks to ensure only empty cells can be selected. |
+| Invalid input (e.g., letters or special characters) caused crashes. | Added input validation to handle non-numeric values.  |
+| The program raised an IndentationError.  | Added extra spaces in-between command line prompt to help visual clarity for the userand avoid errors.  |
