@@ -289,14 +289,17 @@ def main():
     """
     clear_screen()
     print('')
-    print("Hello,Welcome to Tic-Tac-Toe!")
-    print("What is your name?")
-    name = input()
+    print("Hello, Welcome to Tic-Tac-Toe!")
+    name = ""
+    while not name.strip():     # Loop until the user provides a non-empty name
+        name = input("Enter a name: ").strip()
+        if not name:
+            print("Empty input. Please try again.")
     print("------------------")
     print('')
     print(f"Welcome {name}!")
     print('')
-    print("Would you like to play Tic Tac Toe?")
+    print("Would you like to play Tic-Tac-Toe?")
     print("Enter 'y' for YES or 'n' for NO:")
     user_choice = input().strip().lower()
     if user_choice == 'y':
@@ -319,7 +322,7 @@ def main():
         clear_screen()
         print("Thank you for playing!")
         print("Restart the game:")
-        print("press Run program above the terminal window.")
+        print("Press Run program above the terminal window.")
     else:
         print("Invalid command. Press 'y' to start and 'n' to quit.")
 
