@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 
 ##
-The Tic Tac Toe is a simple snd interesting text base game implemented in Python. This project allows two players to take turns and play the classic 3x3 grid game directly in the terminal.
+The Tic Tac Toe is a simple and interesting text base game implemented in Python. This project allows two players to take turns and play the classic 3x3 grid game directly in the terminal.
 
 ![Tic-Tac-Toe](assets/deployed-image.jpg)
 
@@ -178,4 +178,13 @@ You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
 Connect your GitHub repository and deploy as normal.
 
+### Credits
+---
 
+- [Python Classmethods and Staticmethods](https://www.youtube.com/watch?v=rq8cL2XMM5M)
+- [Python if __name__ == __main__ Explained with Code Examples](https://www.freecodecamp.org/news/if-name-main-python-example/#:~:text=We%20can%20use%20an%20if,name%20if%20it%20is%20imported.)
+- [Python Tutorial: if __name__ == '__main__'](https://www.youtube.com/watch?v=sugvnHA7ElY)
+- [12 Beginner Python Projects](https://www.youtube.com/watch?v=8ext9G7xspg&t=2189s)
+- [Tic Tac Toe definition - Collins Dictionary](https://www.collinsdictionary.com/dictionary/english/tic-tac-toe#:~:text=Tic%2Dtac%2Dtoe%20is%20a,same%20symbols%20in%20a%20row.)
+
+### Acknowlegement 
