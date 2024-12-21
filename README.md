@@ -41,13 +41,13 @@ To create the structure of the game, this diagram was created using
  Here's what the program does and how the game plays:
 
 1. This option asks the user to input name and welcomes the user after the name input.
-![Name-Input](assets/name-input.jpg)
+![Name-Input](assets/welcome.jpg)
 
 2. Once the user inputs their name, the program gives the user the option of (yes/no) to play the game.
 ![Initiate-game](assets/input-option.jpg)
 
 3. If user inputs no, it takes the user back to welcome.
-![Welcome](assets/welcome.jpg)
+![Welcome](assets/name-input.jpg)
 
 4. This option gives an initial briefing to the user; User is assigned X and computer is assigned O, The Choice is up to the user to either play the game,read the rules or quit the game.
 ![Command-Menu](assets/commands.jpg)
@@ -186,6 +186,7 @@ Connect your GitHub repository and deploy as normal.
 - [Python Tutorial: if __name__ == '__main__'](https://www.youtube.com/watch?v=sugvnHA7ElY)
 - [12 Beginner Python Projects](https://www.youtube.com/watch?v=8ext9G7xspg&t=2189s)
 - [Tic Tac Toe definition - Collins Dictionary](https://www.collinsdictionary.com/dictionary/english/tic-tac-toe#:~:text=Tic%2Dtac%2Dtoe%20is%20a,same%20symbols%20in%20a%20row.)
+- Code Institute love running project
 
 ### Acknowlegement 
 
